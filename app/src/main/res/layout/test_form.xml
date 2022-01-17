@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".TestAct"
+    android:background="@drawable/bluebg"
+    >
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="20dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/resetbtn"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:text="👈 Tap to Reset the Form."
+            android:textStyle="bold"
+            android:textSize="40sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+
+        android:layoutDirection="rtl"
+        android:layout_marginTop="16dp"
+        android:background="@color/purple_500">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="מה הייתה שנת הקמתה של מדינת ישראל?"
+            tools:ignore="HardcodedText">
+
+        </TextView>
+        <RadioGroup
+            android:id="@+id/q1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="1984">
+
+            </RadioButton>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="1948">
+
+            </RadioButton>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1973">
+
+            </RadioButton>
+        </RadioGroup>
+        <!--q1-->
+    </LinearLayout>
+    <!--q1-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:layoutDirection="rtl"
+        android:layout_marginTop="8dp"
+        android:background="@color/purple_500">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="באיזו שנה התקיימה אינקוויזיציה הספרדית?"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <RadioGroup
+            android:id="@+id/q2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="1478">
+
+            </RadioButton>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="1232">
+
+            </RadioButton>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="1837">
+
+            </RadioButton>
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:layoutDirection="rtl"
+        android:layout_marginTop="8dp"
+
+        android:background="@color/purple_500">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="איזו מדינה בעלת השטח הגדול ביותר ?"
+            android:textStyle="bold">
+
+        </TextView>
+        <RadioGroup
+            android:id="@+id/q3"
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent">
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="ארצות הברית">
+
+            </RadioButton>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="ישראל">
+
+            </RadioButton>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="רוסיה">
+
+            </RadioButton>
+        </RadioGroup>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:layoutDirection="rtl"
+        android:layout_marginTop="8dp"
+
+        android:background="@color/purple_500">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="מה הגיל המינימאלי בישראל אשר בו מותר להתחתן ?"
+            android:textStyle="bold">
+
+        </TextView>
+        <RadioGroup
+            android:id="@+id/q4"
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent">
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="18">
+
+            </RadioButton>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="21">
+
+            </RadioButton>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="16">
+
+            </RadioButton>
+        </RadioGroup>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:layoutDirection="rtl"
+        android:layout_marginTop="8dp"
+
+        android:background="@color/purple_500">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="מה המקום הגבוה ביותר בעולם מעל פני הים ?"
+            android:textStyle="bold">
+
+        </TextView>
+        <RadioGroup
+            android:id="@+id/q5"
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent">
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="הבית של פיסטוק">
+
+            </RadioButton>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="ים המלח">
+
+            </RadioButton>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="הר האוורסט">
+
+            </RadioButton>
+        </RadioGroup>
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/button_done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="done">
+
+    </Button>
+
+
+
+</LinearLayout>
+</androidx.core.widget.NestedScrollView>

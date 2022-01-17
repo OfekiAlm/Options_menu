@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B5DF6918"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quiz Ended!"
+        android:textSize="30sp"
+        android:id="@+id/namnam"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="473dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/bluebg"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/scorevalue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your score test is - "
+            android:textSize="40sp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:id="@+id/btn"
+            android:text="click here to go back"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:id="@+id/btn_pic"
+            android:text="click here pic "/>
+
+        <ImageView
+            android:id="@+id/pic1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="16dp"/>
+
+    </LinearLayout>
+</LinearLayout>

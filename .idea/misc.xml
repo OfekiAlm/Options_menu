@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ofeka/AndroidStudioProjects/Options_menu_211/app/src/main/res/layout/activity_main.xml" value="0.2971014492753623" />
+        <entry key="..\:/Users/ofeka/AndroidStudioProjects/Options_menu_211/app/src/main/res/layout/camera_layout.xml" value="0.2971014492753623" />
+        <entry key="..\:/Users/ofeka/AndroidStudioProjects/Options_menu_211/app/src/main/res/layout/finish_test_layout.xml" value="0.3645833333333333" />
+        <entry key="..\:/Users/ofeka/AndroidStudioProjects/Options_menu_211/app/src/main/res/layout/test_form.xml" value="0.27355072463768115" />
+        <entry key="..\:/Users/ofeka/AndroidStudioProjects/Options_menu_211/app/src/main/res/layout/tree_or_pali.xml" value="0.2971014492753623" />
+        <entry key="..\:/Users/ofeka/AndroidStudioProjects/Options_menu_211/app/src/main/res/menu/options_menu.xml" value="0.22340425531914893" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
